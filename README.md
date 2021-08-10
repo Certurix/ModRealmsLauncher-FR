@@ -1,6 +1,6 @@
 <p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="modrealms logo"></p>
 
-<h1 align="center">ModRealms Launcher</h1>
+<h1 align="center">ModRealms Launcher FR</h1>
 
 <em><h5 align="center"><a href="https://github.com/dscalzi/HeliosLauncher">Modified from HeliosLauncher</a></h5></em>
 
