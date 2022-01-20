@@ -54,7 +54,7 @@ async function validateSelectedMicrosoft() {
             if (MSExpired) {
                 const newAccessToken = await Microsoft.refreshAccessToken(current.microsoft.refresh_token)
                 const newMCAccessToken = await Microsoft.authMinecraft(newAccessToken.access_token)
-                ConfigManager.updateMicrosoftAuthAccount(current.uuid, newMCAccessToken.access_token, newAccessToken.access_token, current.microsoft.refresh_token, newAccessToken.expires_at, newMCAccessToken.expires_at)
+                ConfigManager.updateMicrosoftAuthAccount(current.uuid, newMCAccessToken.access_token, newAccessToken.access_token, newAccessToken.refresh_token, newAccessToken.expires_at, newMCAccessToken.expires_at)
                 ConfigManager.save()
                 return true
             }
