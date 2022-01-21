@@ -65,7 +65,7 @@ This project is forked from HeliosLauncher, a project by dscalzi for the server 
 * [Original Project Wiki][wiki]
 * [Aventium Softworks Discord][discord2]
 
-[discord]: https://discord.gg/tKKeTdc 'ModRealms Discord'
+[discord]: https://modrealms.net/discord 'ModRealms Discord'
 [discord2]: https://discord.gg/zNWUXdt 'Original Project Discord'
 [original]: https://github.com/dscalzi/HeliosLauncher 'Original Project GitHub'
 ```console
