@@ -180,7 +180,7 @@ document.getElementById('refreshMediaButton').onclick = (e) => {
             toggleOverlay(false)
         })
         setDismissHandler(() => {
-            shell.openExternal('https://discord.gg/tKKeTdc')
+            shell.openExternal('https://modrealms.net/discord')
         })
         toggleOverlay(true, true)
         ele.removeAttribute('inprogress')
@@ -203,7 +203,7 @@ function updateSelectedAccount(authUser){
             username = authUser.displayName
         }
         if(authUser.uuid != null){
-            document.getElementById('avatarContainer').style.backgroundImage = `url('https://crafatar.com/renders/body/${authUser.uuid}?default=MHF_Steve&overlay')`
+            document.getElementById('avatarContainer').style.backgroundImage = `url('https://mc-heads.net/body/${authUser.uuid}/right')`
         }
     }
     user_text.innerHTML = username
@@ -835,7 +835,7 @@ function dlAsync(login = true){
                         shell.showItemInFolder(path)
                         setOverlayContent(
                             'Game Crashed!',
-                            'Uh oh! It looks like your game has just crashed. We have opened up the crash-reports folder so that you can easily share it with our staff team over on Discord. If you have any repeating crashes, we always recommend that you come and see us on <a href="https://discord.gg/tKKeTdc">Discord!</a><br><br>For future reference, your crash report file location is: <br>' + path,
+                            'Uh oh! It looks like your game has just crashed. We have opened up the crash-reports folder so that you can easily share it with our staff team over on Discord. If you have any repeating crashes, we always recommend that you come and see us on <a href="https://modrealms.net/discord">Discord!</a><br><br>For future reference, your crash report file location is: <br>' + path,
                             'Okay, thanks!',
                             'Open Crash Report'
                         )
@@ -860,7 +860,7 @@ function dlAsync(login = true){
                         let LOG_FILE = path.join(ConfigManager.getInstanceDirectory(), serv.getID(), 'logs', 'latest.log')
                         setOverlayContent(
                             'Error During Launch!',
-                            'It seems that your client was not able to launch past the point where the client opens up and crash reports can be generated. A common cause of this can be a mixin mismatch between mods early on during the launch.<br><br>If you have installed any custom drop-in mods, please disable these and try launch again.<br><br>If you continue to have this issue, please upload your latest.log to a <a href="https://ptero.co">pastebin</a> and drop it to us on our <a href="https://discord.gg/tKKeTdc">Discord</a> server!',
+                            'It seems that your client was not able to launch past the point where the client opens up and crash reports can be generated. A common cause of this can be a mixin mismatch between mods early on during the launch.<br><br>If you have installed any custom drop-in mods, please disable these and try launch again.<br><br>If you continue to have this issue, please upload your latest.log to a <a href="https://ptero.co">pastebin</a> and drop it to us on our <a href="https://modrealms.net/discord">Discord</a> server!',
                             'Okay, thanks!',
                             'Open latest.log'
                         )
@@ -1370,8 +1370,4 @@ function loadNews(){
             })
         })
     })
-}
-
-function parseContent(){
-
 }

@@ -30,7 +30,8 @@ If you download from the [Releases](https://github.com/ModRealms-Network/HeliosL
 | Platform | File |
 | -------- | ---- |
 | Windows x64 | `Helios-Launcher-setup-VERSION.exe` |
-| macOS | `Helios-Launcher-setup-VERSION.dmg` |
+| macOS x64 | `Helios-Launcher-setup-VERSION.dmg` |
+| macOS arm64 | `Helios-Launcher-setup-VERSION-arm64.dmg` |
 | Linux x64 | `Helios-Launcher-setup-VERSION.AppImage` |
 
 ## Console
@@ -64,7 +65,7 @@ This project is forked from HeliosLauncher, a project by dscalzi for the server 
 * [Original Project Wiki][wiki]
 * [Aventium Softworks Discord][discord2]
 
-[discord]: https://discord.gg/tKKeTdc 'ModRealms Discord'
+[discord]: https://modrealms.net/discord 'ModRealms Discord'
 [discord2]: https://discord.gg/zNWUXdt 'Original Project Discord'
 [original]: https://github.com/dscalzi/HeliosLauncher 'Original Project GitHub'
 ```console
@@ -156,14 +157,7 @@ Note that you **cannot** open the DevTools window while using this debug configu
 
 ### Note on Third-Party Usage
 
-You may use this software in your own project so long as the following conditions are met.
-
-* Credit is expressly given to the original authors (Daniel Scalzi).
-  * Include a link to the original source on the launcher's About page.
-  * Credit the authors and provide a link to the original source in any publications or download pages.
-* The source code remain **public** as a fork of this repository.
-
-We reserve the right to update these conditions at any time, please check back periodically.
+Please give credit to the original author and provide a link to the original source. This is free software, please do at least this much.
 
 ---
 

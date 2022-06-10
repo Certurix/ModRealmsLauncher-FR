@@ -136,7 +136,7 @@ function showFatalStartupError(){
                 shell.openExternal('https://github.com/ModRealms-Network/HeliosLauncher/releases')
             })
             setDismissHandler(() => {
-                shell.openExternal('https://discord.gg/tKKeTdc')
+                shell.openExternal('https://modrealms.net/discord')
             })
             toggleOverlay(true, true)
         })
@@ -456,7 +456,7 @@ ipcRenderer.on('cachedDistributionNotification', (event, res) => {
                 toggleOverlay(false)
             })
             setDismissHandler(() => {
-                shell.openExternal('https://discord.gg/tKKeTdc')
+                shell.openExternal('https://modrealms.net/discord')
             })
             toggleOverlay(true, true)
         }, 2000)
